@@ -1,0 +1,151 @@
+{
+  "properties": {
+    "fuel": 1.2,
+    "stabilizer": 0.1,
+    "yawSpeed": 0.14,
+    "pitchSpeed": 1.5,
+    "engineSpeed": 0.085,
+    "verticalSpeed": 0.031,
+    "glideFactor": 0.0,
+    "driftDrag": 0.005,
+    "lift": 0.1,
+    "rollFactor": 15.0,
+    "wind": 0.0,
+    "mass": 4.0,
+    "groundFriction": 0.25,
+    "horizontalDecay": 0.9,
+    "verticalDecay": 0.8,
+    "durability": 2.5
+  },
+  "inventorySlots": [
+    {
+      "type": "boiler",
+      "x": 17,
+      "y": 32
+    },
+    {
+      "type": "weapon",
+      "x": 50,
+      "y": 24
+    },
+    {
+      "type": "weapon",
+      "x": 50,
+      "y": 46
+    },
+    {
+      "type": "upgrade",
+      "x": 72,
+      "y": 24
+    },
+    {
+      "type": "upgrade",
+      "x": 72,
+      "y": 46
+    },
+    {
+      "type": "inventory",
+      "x": 98,
+      "y": 18,
+      "cols": 4,
+      "rows": 4
+    },
+    {
+      "type": "inventory",
+      "x": -44,
+      "y": 8,
+      "cols": 2,
+      "rows": 7,
+      "boxed": true
+    },
+    {
+      "type": "inventory",
+      "x": 186,
+      "y": 8,
+      "cols": 2,
+      "rows": 7,
+      "boxed": true
+    }
+  ],
+  "weaponMounts": [
+    {
+      "ROTATING": [
+        {
+          "x": -2.2506,
+          "y": 0.5038,
+          "z": 0.0
+        },
+        {
+          "x": 2.2506,
+          "y": 0.5038,
+          "z": 0.0
+        }
+      ],
+      "FRONT": [
+        {
+          "x": 0.0,
+          "y": 0.1463,
+          "z": 2.275
+        }
+      ],
+      "DROP": [
+        {
+          "x": 0.0,
+          "y": 0.4062,
+          "z": 0.4875
+        }
+      ]
+    },
+    {
+      "ROTATING": [
+        {
+          "x": -1.3731,
+          "y": 0.6338,
+          "z": 0.0
+        },
+        {
+          "x": 1.3731,
+          "y": 0.6338,
+          "z": 0.0
+        }
+      ],
+      "FRONT": [
+        {
+          "x": 0.0,
+          "y": 0.1463,
+          "z": -1.1375
+        }
+      ],
+      "DROP": [
+        {
+          "x": 0.0,
+          "y": 0.4062,
+          "z": -1.7875
+        }
+      ]
+    }
+  ],
+  "passengerPositions": [
+    [
+      {
+        "x": 0.0,
+        "y": 1.2188,
+        "z": 0.325
+      }
+    ],
+    [
+      {
+        "x": 0.0,
+        "y": 1.2188,
+        "z": 0.325
+      },
+      {
+        "x": 0.0,
+        "y": 0.8938,
+        "z": 1.95
+      }
+    ]
+  ],
+  "boundingBoxes": [],
+  "trails": []
+}

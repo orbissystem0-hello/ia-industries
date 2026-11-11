@@ -1,0 +1,124 @@
+{
+  "properties": {
+    "fuel": 1.7,
+    "yawSpeed": 4.0,
+    "pitchSpeed": 3.2,
+    "engineSpeed": 0.0255,
+    "friction": 0.001,
+    "horizontalDecay": 0.995,
+    "verticalDecay": 0.995,
+    "groundFriction": 0.85,
+    "brakeFactor": 0.98,
+    "pushSpeed": 0.03,
+    "glideFactor": 0.05,
+    "driftDrag": 0.01,
+    "lift": 0.15,
+    "rollFactor": 45.0,
+    "groundPitch": 4.0,
+    "wind": 0.03,
+    "mass": 2.0
+  },
+  "inventorySlots": [
+    {
+      "type": "booster",
+      "x": 17,
+      "y": 66
+    },
+    {
+      "type": "weapon",
+      "x": 50,
+      "y": 24
+    },
+    {
+      "type": "banner",
+      "x": 72,
+      "y": 24
+    },
+    {
+      "type": "upgrade",
+      "x": 50,
+      "y": 46
+    },
+    {
+      "type": "upgrade",
+      "x": 72,
+      "y": 46
+    },
+    {
+      "type": "upgrade",
+      "x": 50,
+      "y": 68
+    },
+    {
+      "type": "upgrade",
+      "x": 72,
+      "y": 68
+    },
+    {
+      "type": "boiler",
+      "x": 17,
+      "y": 40
+    },
+    {
+      "type": "inventory",
+      "x": 98,
+      "y": 18,
+      "cols": 4,
+      "rows": 4
+    },
+    {
+      "type": "inventory",
+      "x": -80,
+      "y": 8,
+      "cols": 4,
+      "rows": 5,
+      "boxed": true
+    }
+  ],
+  "weaponMounts": [
+    {
+      "ROTATING": [
+        {
+          "x": 0.0,
+          "y": 1.625,
+          "z": 0.5687
+        }
+      ],
+      "FRONT": [
+        {
+          "x": -2.4375,
+          "y": 0.4875,
+          "z": 0.7313
+        },
+        {
+          "x": 2.4375,
+          "y": 0.4875,
+          "z": 0.7313
+        }
+      ],
+      "DROP": [
+        {
+          "x": -1.625,
+          "y": 0.325,
+          "z": 0.7313
+        },
+        {
+          "x": 1.625,
+          "y": 0.325,
+          "z": 0.7313
+        }
+      ]
+    }
+  ],
+  "passengerPositions": [
+    [
+      {
+        "x": 0.0,
+        "y": 0.7313,
+        "z": 1.1375
+      }
+    ]
+  ],
+  "boundingBoxes": [],
+  "trails": []
+}

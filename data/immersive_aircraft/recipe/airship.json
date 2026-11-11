@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "immersive_aircraft:sail"
+    },
+    "H": {
+      "item": "immersive_aircraft:hull"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "HME"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:airship"
+  },
+  "accept_mirrored": false,
+  "show_notification": false
+}

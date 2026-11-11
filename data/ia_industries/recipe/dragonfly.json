@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "immersive_aircraft:propeller"
+    },
+    "S": {
+      "item": "immersive_aircraft:sail"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "A": {
+      "item": "ia_industries:cargo_gyrodyne"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "V": {
+      "item": "create:item_vault"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "EAE",
+    "BVB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ia_industries:dragonfly"
+  },
+  "accept_mirrored": false,
+  "show_notification": false
+}

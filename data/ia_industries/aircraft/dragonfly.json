@@ -1,0 +1,142 @@
+{
+  "properties": {
+    "stabilizer": 0.3,
+    "yawSpeed": 2.5,
+    "pitchSpeed": 2.5,
+    "engineSpeed": 0.044,
+    "verticalSpeed": 0.035,
+    "driftDrag": 0.01,
+    "lift": 0.1,
+    "rollFactor": 30.0,
+    "wind": 0.07,
+    "mass": 10.0,
+    "groundFriction": 0.8,
+    "horizontalDecay": 0.925,
+    "verticalDecay": 0.9,
+    "fuel": 1.4
+  },
+  "inventorySlots": [
+    {
+      "type": "boiler",
+      "x": 17,
+      "y": 32
+    },
+    {
+      "type": "weapon",
+      "x": 50,
+      "y": 24
+    },
+    {
+      "type": "upgrade",
+      "x": 72,
+      "y": 24
+    },
+    {
+      "type": "upgrade",
+      "x": 50,
+      "y": 46
+    },
+    {
+      "type": "upgrade",
+      "x": 72,
+      "y": 46
+    },
+    {
+      "type": "inventory",
+      "x": 98,
+      "y": 18,
+      "cols": 4,
+      "rows": 4
+    },
+    {
+      "type": "inventory",
+      "x": -62,
+      "y": 8,
+      "cols": 3,
+      "rows": 10,
+      "boxed": true
+    },
+    {
+      "type": "inventory",
+      "x": -124,
+      "y": 8,
+      "cols": 3,
+      "rows": 10,
+      "boxed": true
+    },
+    {
+      "type": "inventory",
+      "x": 186,
+      "y": 8,
+      "cols": 3,
+      "rows": 10,
+      "boxed": true
+    },
+    {
+      "type": "inventory",
+      "x": 248,
+      "y": 8,
+      "cols": 3,
+      "rows": 9,
+      "boxed": true
+    }
+  ],
+  "weaponMounts": [
+    {
+      "ROTATING": [
+        {
+          "x": 0.0,
+          "y": 3.9,
+          "z": 0.6
+        }
+      ],
+      "FRONT": [
+        {
+          "x": -1.2,
+          "y": 4.05,
+          "z": 0.0
+        },
+        {
+          "x": 1.2,
+          "y": 4.05,
+          "z": 0.0
+        }
+      ],
+      "DROP": [
+        {
+          "x": -1.125,
+          "y": 1.65,
+          "z": -1.5
+        },
+        {
+          "x": 1.125,
+          "y": 1.65,
+          "z": -1.5
+        }
+      ]
+    }
+  ],
+  "passengerPositions": [
+    [
+      {
+        "x": -0.3375,
+        "y": 2.025,
+        "z": 1.65
+      }
+    ],
+    [
+      {
+        "x": -0.3375,
+        "y": 2.025,
+        "z": 1.65
+      },
+      {
+        "x": 0.3375,
+        "y": 2.025,
+        "z": 1.65
+      }
+    ]
+  ],
+  "boundingBoxes": [],
+  "trails": []
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "H": {
+      "item": "immersive_aircraft:hull"
+    },
+    "P": {
+      "item": "immersive_aircraft:propeller"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "IHI",
+    "PEM",
+    "IHI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:biplane"
+  },
+  "accept_mirrored": false,
+  "show_notification": false
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "immersive_aircraft:enhanced_propeller"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "A": {
+      "item": "ia_industries:cargo_copter"
+    },
+    "T": {
+      "item": "create:sturdy_sheet"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "P P",
+    "EAE",
+    "TMT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ia_industries:hawk"
+  },
+  "accept_mirrored": false,
+  "show_notification": false
+}

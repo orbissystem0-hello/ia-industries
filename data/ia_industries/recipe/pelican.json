@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "immersive_aircraft:sail"
+    },
+    "H": {
+      "item": "immersive_aircraft:hull"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "A": {
+      "item": "ia_industries:cargo_seaplane"
+    },
+    "G": {
+      "item": "immersive_aircraft:industrial_gears"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "SHS",
+    "EAE",
+    "HGH",
+    "BMB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ia_industries:pelican"
+  },
+  "accept_mirrored": false,
+  "show_notification": false
+}

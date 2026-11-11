@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "immersive_aircraft:sail"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "A": {
+      "item": "ia_industries:cargo_biplane"
+    },
+    "H": {
+      "item": "immersive_aircraft:hull"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "SSSSS",
+    "EEAEE",
+    "HBMBH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ia_industries:gigantia"
+  },
+  "accept_mirrored": false,
+  "show_notification": false
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bamboo_block"
+    },
+    "H": {
+      "item": "immersive_aircraft:hull"
+    },
+    "A": {
+      "item": "immersive_aircraft:biplane"
+    },
+    "S": {
+      "item": "immersive_aircraft:sail"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    }
+  },
+  "pattern": [
+    "BHB",
+    "BAB",
+    "SES"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_aircraft:bamboo_hopper"
+  },
+  "accept_mirrored": false,
+  "show_notification": false
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "A": {
+      "item": "immersive_aircraft:quadrocopter"
+    },
+    "K": {
+      "item": "create:andesite_casing"
+    },
+    "H": {
+      "item": "immersive_aircraft:hull"
+    }
+  },
+  "pattern": [
+    "CAC",
+    "KHK"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ia_industries:cargo_copter"
+  },
+  "accept_mirrored": false,
+  "show_notification": false
+}
